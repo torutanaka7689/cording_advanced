@@ -2,7 +2,7 @@ const swiper = new Swiper(".swiper", {
     loop: true, //繰り返しをする
     centeredSlides: false, //アクティブなスライドが真ん中に出るかどうか
     breakpoints: {
-        599: {        // スマホサイズの場合
+        375: {        // スマホサイズの場合
             slidesPerView: 1, //スライド同時表示数
         },
         1024: {      // PCサイズの場合
